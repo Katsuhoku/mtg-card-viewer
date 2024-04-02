@@ -1,0 +1,55 @@
+[debug] [2024-04-02T20:40:48.339Z] ----------------------------------------------------------------------
+[debug] [2024-04-02T20:40:48.342Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aomar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-02T20:40:48.342Z] CLI Version:   13.6.0
+[debug] [2024-04-02T20:40:48.343Z] Platform:      win32
+[debug] [2024-04-02T20:40:48.343Z] Node Version:  v18.13.0
+[debug] [2024-04-02T20:40:48.351Z] Time:          Tue Apr 02 2024 14:40:48 GMT-0600 (hora estándar central)
+[debug] [2024-04-02T20:40:48.352Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-02T20:40:48.363Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-02T20:40:48.364Z] > authorizing via signed-in user (marcocoria.dev@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aomar\AndroidStudioProjects\CoroutinesFIrebase
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-04-02T20:40:54.937Z] setProjectAccount(C:\Users\aomar\AndroidStudioProjects\CoroutinesFIrebase, marcoderio850@gmail.com)
+[info] 
+[info] +  Using account: marcoderio850@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-02T20:40:58.160Z] > refreshing access token with scopes: []
+[debug] [2024-04-02T20:40:58.163Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-02T20:40:58.163Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-02T20:40:58.448Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-02T20:40:58.449Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-02T20:40:58.456Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-02T20:40:58.761Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-02T20:40:58.761Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project testing-services-e85d0 (testing-services) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-02T20:41:01.930Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testing-services-e85d0 [none]
+[debug] [2024-04-02T20:41:02.219Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testing-services-e85d0 200
+[debug] [2024-04-02T20:41:02.219Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testing-services-e85d0 {"projectId":"testing-services-e85d0","projectNumber":"532356974032","displayName":"testing-services","name":"projects/testing-services-e85d0","resources":{"hostingSite":"testing-services-e85d0"},"state":"ACTIVE","etag":"1_887af319-0212-4ace-87dc-080a2af3d55f"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
